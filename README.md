@@ -1,25 +1,33 @@
-🖼️ Image Slideshow Project (C# WinForms)
 
-A simple Windows Forms application that allows users to view images as a slideshow.
-Users can select a folder containing images, and the app will automatically display them one by one with next/previous navigation and auto-slide functionality.
 
-✨ Features:
 
-Load images (.jpg, .png) from any selected folder
-View images with Next and Previous buttons
-Auto slideshow with timer interval
-Display image name and number
-Smooth memory handling (dispose old image before loading new one)
-Simple and clean UI
+# 🖼️ Image Slideshow Project
 
-🛠️ Tech Stack:
+A simple C# Windows Forms app that allows you to browse and view images from any folder in slideshow mode.
 
-Language: C#
-Framework: .NET Windows Forms
-IDE: Visual Studio
+## ✨ Features
+- Navigate through images using **Next** and **Previous** buttons
+- Optional auto-slideshow mode
+- Displays image name and number
+- Clean and simple user interface
 
-💡 How to Use:
+---
 
-Run the application.
-Choose a folder that contains images.
-Click Next / Previous or wait for the slideshow timer.
+## 🧰 Technologies Used
+- C#
+- .NET Framework
+- Windows Forms
+- Visual Studio
+
+---
+
+## 🚀 How to Run
+1. Open the project in **Visual Studio**
+2. Build the solution (Ctrl + Shift + B)
+3. Run the project (F5)
+4. Choose a folder containing images (.jpg / .png)
+
+---
+
+## 📸 Author
+Developed by **Mariam Yousry**
