@@ -1,7 +1,7 @@
 
-![Slideshow Screenshot](https://github.com/MariamYousry1234/Image-Slideshow-Project/blob/master/Image%20Slideshow1.PNG?raw=true)
+![Slideshow Screenshot](https://github.com/MariamYousry1234/Image-Slideshow-Project/blob/master/Image1.PNG?raw=true)
 
-![Slideshow Screenshot](https://github.com/MariamYousry1234/Image-Slideshow-Project/blob/master/Image%20Slideshow2.PNG?raw=true)
+![Slideshow Screenshot](https://github.com/MariamYousry1234/Image-Slideshow-Project/blob/master/Image2.PNG?raw=true)
 
 # 🖼️ Image Slideshow Project
 
