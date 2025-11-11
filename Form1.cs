@@ -53,8 +53,10 @@ namespace Image_Slideshow_Project
                     .Concat(Directory.GetFiles(ImagesFolder.SelectedPath, "*.png")).ToArray();
 
                 ShowImage();
-              
             }
+
+            else
+                this.Close();
         }
 
 
