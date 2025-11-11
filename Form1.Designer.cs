@@ -71,7 +71,7 @@ namespace Image_Slideshow_Project
             this.btnPrevious.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrevious.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPrevious.ForeColor = System.Drawing.Color.Black;
-            this.btnPrevious.Location = new System.Drawing.Point(298, 566);
+            this.btnPrevious.Location = new System.Drawing.Point(335, 566);
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(142, 43);
             this.btnPrevious.TabIndex = 2;
@@ -85,7 +85,7 @@ namespace Image_Slideshow_Project
             this.btnNext.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNext.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNext.Location = new System.Drawing.Point(506, 566);
+            this.btnNext.Location = new System.Drawing.Point(528, 566);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(132, 43);
             this.btnNext.TabIndex = 3;
@@ -138,7 +138,7 @@ namespace Image_Slideshow_Project
             this.btnLoad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLoad.Font = new System.Drawing.Font("Trebuchet MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLoad.ForeColor = System.Drawing.Color.Black;
-            this.btnLoad.Location = new System.Drawing.Point(91, 566);
+            this.btnLoad.Location = new System.Drawing.Point(142, 566);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(142, 43);
             this.btnLoad.TabIndex = 7;

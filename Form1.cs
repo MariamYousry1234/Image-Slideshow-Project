@@ -61,7 +61,7 @@ namespace Image_Slideshow_Project
                 Images = Directory.GetFiles(ImagesFolder.SelectedPath, "*.jpg")
                     .Concat(Directory.GetFiles(ImagesFolder.SelectedPath, "*.png")).ToArray();
 
-
+                //Is Folder Empty
                 if (Images.Length == 0)
                 {
                     MessageBox.Show("No images found to show", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
