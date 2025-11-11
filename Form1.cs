@@ -23,6 +23,14 @@ namespace Image_Slideshow_Project
         int Counter = 0;
         byte TimerCounter = 0;
 
+        void Reset()
+        {
+            Counter = 0;
+            TimerCounter = 0;
+            btnNext.Enabled = true;
+            btnPrevious.Enabled = true;
+         
+        }
         void ShowImage()
         {
             try
@@ -49,14 +57,32 @@ namespace Image_Slideshow_Project
 
             if (ImagesFolder.ShowDialog() == DialogResult.OK)
             {
+                Reset();
                 Images = Directory.GetFiles(ImagesFolder.SelectedPath, "*.jpg")
                     .Concat(Directory.GetFiles(ImagesFolder.SelectedPath, "*.png")).ToArray();
+
+
+                if (Images.Length == 0)
+                {
+                    MessageBox.Show("No images found to show", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    pbImage.Image = null;
+                    btnNext.Enabled = false;
+                    btnPrevious.Enabled = false;
+                    lblImageName.Text = "";
+                    lblNumber.Text = "";
+                    return;
+                }
 
                 ShowImage();
             }
 
             else
-                this.Close();
+            {
+                btnNext.Enabled = false;
+                btnPrevious.Enabled = false;
+            }
+
+           
         }
 
 
@@ -99,7 +125,14 @@ namespace Image_Slideshow_Project
         {
             if(++TimerCounter == 10)
                 ShowNextImage();
-         
+          
+        }
+
+        private void btnLoad_Click(object sender, EventArgs e)
+        {
+            timer1.Stop();
+            LoadImages();
+            timer1.Start();
         }
     }
 }
