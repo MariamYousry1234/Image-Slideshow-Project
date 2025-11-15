@@ -86,8 +86,8 @@ namespace Image_Slideshow_Project
 
             else
             {
-                if (pbImage.Image == null)
-                    FormOff();
+              
+               FormOff();
             }
 
            
